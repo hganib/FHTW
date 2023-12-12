@@ -13,7 +13,7 @@ public class PersonDataBaseSketch {
 
     public static void printDB (long[] uid, String[] VN, String[] NN, int[] d, int[] m, int[] y) {
         for (int i = 0; i < uid.length; i++) {
-            System.out.printf("%05d %-10.10S %-10.10S %04d-%02d-%02d\n",uid[i], VN[i], NN[i], d[i], m[i], y[i]);
+            System.out.printf("%05d %-10.10S %-10.10S %02d-%02d-%02d\n",uid[i], VN[i], NN[i], d[i], m[i], y[i]);
         }
     }
 }
